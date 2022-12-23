@@ -4,7 +4,7 @@
 		<td width = 45 rowspan = 40> </td>
 		
 		<form  action = "add_comment.php" method = "post">
-			<td bgcolor = "F5F5F5" width = 393>
+			<td width = 393>
 				<input type = "text" name = "text" placeholder = "Новый комментарий"> </input>
 				<input type = "hidden" name = "post_id" value = "<?php echo $post_id?>"> </input>
 				<input type = "hidden" name = "forum_page"  value = "<?php echo $page?>"> </input>
